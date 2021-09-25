@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/900b7072f3.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- nav bar section -->
+    <header class="navheader">
+        
+    <div id="navbar"> 
+        <i class="fas fa-atom fa-4x icon"></i>
+        <nav class="top">
+            <ul class="navitems">
+                <li> <a href="#">Store</a></li>
+                <li> <a href="#">About</a></li>
+                <li><a href="#">Contact</a> </li>
+                <li> <a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <!-- nav bar section  -->
+
+    <!-- shopping cart section -->
+<div class="titlewrap">
+    <h1 class="head">Keep Shopping, Keep Spending.</h1>
+    <div class="cartheader">
+        <h1 class="inside">My Cart</h1>
+        <a href="#" class="continue ">Back To Store <i class="fas fa-arrow-right thing"></i></a>
+    </div>
+    <div class="layout">
+        <ul class="cartwrap ">
+            
+            <li class="cart odd">
+                <div class="cartsection">
+                 
+                    <div class="productlist">
+                        <img class="thing" src="images/laura-chouette-9NzkESx08lo-unsplash.jpg">
+                        <p class="collection">Lux Watch Collection</p>
+                        <h3>Expensive Watch</h3>
+                        <p>
+                            <input type="number" value="1" min="0" max="100" class="qty">
+                        </p>
+                        <p class="stock"> In Stock</p>
+                    </div>
+                    <div class="price">
+                        <p>$800.69 <span class="delete"><i class="far fa-trash-alt"></i></span></p>
+                    </div>
+                </div>
+            </li>
+            <li class="cart even">
+                <div class="cartsection ">
+                 
+                    <div class="productlist">
+                        <img class="thing" src="images/jonathan-sanchez-KTF4MPh6kos-unsplash.jpg">
+                        <p class="collection">Lux Jewelry Collection</p>
+                        <h3>Expensive Ring Set</h3>
+                        <p>
+                            <input type="number" value="1" min="0" max="100" class="qty">
+                        </p>
+                        <p class="stock"> In Stock</p>
+                    </div>
+                    <div class="price">
+                        <p>$235.69 <span class="delete"><i class="far fa-trash-alt"></i></span></p>
+                    </div>
+
+                </div>
+                </li>
+                <li class="cart odd">
+                    <div class="cartsection ">
+                     
+                        <div class="productlist">
+                            <img class="thing" src="images/laura-chouette-39Dfpy0iy6o-unsplash.jpg">
+                            <p class="collection">Lux Fragrance Collection</p>
+                            <h3>Expensive Perfume</h3>
+                            <p>
+                                <input type="number" value="1" min="0" max="100" class="qty">
+                            </p>
+                            <p class="stock"> In Stock</p>
+                        </div>
+                        <div class="price">
+                            <p>$876.69 <span class="delete"><i class="far fa-trash-alt"></i></span></p>
+                        </div>
+                        
+    
+                    </div>
+                </li>
+                <li class="cart even">
+                    <div class="cartsection ">
+                     
+                        <div class="productlist">
+                            <img class="thing" src="images/tani-olorunyomi-hBKAgdpn56o-unsplash.jpg">
+                            <p class="collection">Lux Fashion Collection</p>
+                            <h3>Expensive Purse</h3>
+                            <p>
+                                <input type="number" value="1" min="0" max="100" class="qty">
+                            </p>
+                            <p class="stock"> In Stock</p>
+                        </div>
+                        <div class="price">
+                            <p>$934.69 <span class="delete"><i class="far fa-trash-alt"></i></span></p>
+                        </div>
+                        
+    
+                    </div>
+                </li>
+                <li class="cart odd">
+                    <div class="cartsection ">
+                     
+                        <div class="productlist">
+                            <img class="thing" src="images/jon-tyson-2RMgwI-CizA-unsplash.jpg">
+                            <p class="collection">Lux Art Collection</p>
+                            <h3>Expensive Painting</h3>
+                            <p>
+                                <input type="number" value="1" min="0" max="100" class="qty">
+                            </p>
+                            <p class="stock"> In Stock</p>
+                        </div>
+                        <div class="price">
+                            <p>$590.69  <span class="delete"><i class="far fa-trash-alt"></i></span></p>
+                    </div>
+                </li>
+        </ul>
+        <div class="luxcode"> <label for="promo">Have a Lux Code?</label>
+        <input type="text" name="promo" placeholder="Enter Code">
+    <a href="#" class="btn promobtn">Apply <i class="fas fa-arrow-right thing"></i></a></div>
+    <div class="totalcart">
+        <ul>
+            <li class="totalrow"><span class="label">SubTotal: </span><span class="value">$3,438</span></li>
+            <li class="totalrow"><span class="label">Shipping: </span><span class="value">$19.69</span></li>
+            <li class="totalrow"><span class="label">Tax: </span><span class="value">$447</span></li>
+            <li class="totalrow final"><span class="label">Total: </span><span class="value">3,904.69</span></li>
+            <li class="totalrow"> <a href="#" class="btn end">Checkout <i class="fas fa-arrow-right thing"></i></a></li>
+        </ul>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+   
+</body>
+</html>
